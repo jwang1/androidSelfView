@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         ppv.invalidate();
 
         // check value of false
-        return true;
+        //return false;   // cannot continuously move the ping pong
+
+        return true;    // able to continuously move the ping pong
       }
     });
   }
